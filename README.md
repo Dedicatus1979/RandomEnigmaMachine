@@ -16,7 +16,7 @@ A simple random rotors Enigma machine with Python.
 非交互模式：
 ```
 import enigma as enm          # 建议将此文件作为模块导入。
-enm.setting(114514, False)    # setting中是用于设置主要信息的，114514设置的是种子，种子可以是任意非0的整数，False代表非经典模式。
+enm.setting(114514, False)    # setting中是用于设置主要配置的，114514设置的是种子，种子可以是任意非0的整数，False代表非经典模式。
 enm.setSite(1, 1, 4)          # 设置码盘位置，也可直接在setting中设置。
 text = r'''Hello world!!!'''  # 设置想要加密的内容，推荐在ascii模式下使用ascii内的字母，经典模式下同理，使用原始字符串是为了防止出现奇奇怪怪的问题
 cipher = enm.run(text)
@@ -28,7 +28,7 @@ print(cipher)
 ```
 # 当前恩尼格玛机的种子为 114514，码盘位置为：(0, 0, 0)，模式为经典模式。
 # 可以通过"/help"获取更多信息。              # /xxxx可以表示输入指令。
-:->                                        # ':->'即表示应该由用户进行输入
+:->                                        # ':->'即表示到了由用户进行输入的回合了
 >>> Hello World!!!               
 FWHMS OYPGG!!!                              # 系统返回的加密值。
 # 当前码盘位置为： (0, 0, 10)                 # 系统返回的当前码盘值。
