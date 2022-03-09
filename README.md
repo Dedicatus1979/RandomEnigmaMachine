@@ -1,5 +1,7 @@
 # RandomEnigmaMachine
-A simple pseudorandomness rotors Enigma machine with Python.    一个简易的使用Python编写的伪随机转子恩尼格玛机
+A simple random rotors Enigma machine with Python.
+
+一个简易的使用Python编写的随机转子恩尼格玛机。
 
 这是一个模拟伪随机转子的三转子恩尼格玛机的程序，
 本程序可以作为小程序直接运行交互式使用，也可作为库导入非交互式使用。
