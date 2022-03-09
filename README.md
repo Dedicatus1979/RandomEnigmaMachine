@@ -64,8 +64,8 @@ FWZPU LFPAG!!!
 | getSeed      | 返回当前的随机数种子 |
 | setSwap      | 设置交换的字母，其模拟的是恩尼格玛机的接线板 |
 | getSwap      | 以列表形式返回当前交换的字母  |
-| clearSwap    | 将所有已创建的字母交换值清空  |
 | setGroupSwap | setSwap的组函数版，可以一次性交换多组字母    |
+| clearSwap    | 将所有已创建的字母交换值清空  |
 | deleteGroupSwap | 删除一组交换字母，一组内可以有多组不同的交换字母 |
 | swap | 与setSwap函数功能相同，建议仅在交互模式下使用本函数 |
 | site | 与setSite函数功能一样，建议仅在交互模式下使用本函数 |
