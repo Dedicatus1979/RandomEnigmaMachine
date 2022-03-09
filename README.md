@@ -11,6 +11,8 @@ A simple pseudorandomness rotors Enigma machine with Python.    一个简易的�
 在经典模式下，大小写不敏感且结果一律为大写字母。非经典模式下，为了防止空格间的混淆，" "(Space ASCII 32)将会被替换为"_"(Underline ASCII 95)。
 
 ## 程序函数说明
+| 函数     |    函数说明            |
+| ---------- | -------------- |
 | setting    | 用于定义恩尼格玛机的初始设定，其包括种子seed，码盘位置code_site以及是否为经典模式classical |
 | database   | 数据库         |
 | collection | 数据表         |
