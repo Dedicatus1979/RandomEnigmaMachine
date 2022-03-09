@@ -10,14 +10,20 @@ A simple pseudorandomness rotors Enigma machine with Python.    一个简易的�
 
 在经典模式下，大小写不敏感且结果一律为大写字母。非经典模式下，为了防止空格间的混淆，" "(Space ASCII 32)将会被替换为"_"(Underline ASCII 95)。
 
-## 程序函数说明
-| 函数     |    函数说明            |
-| ---------- | -------------- |
-| setting    | 用于定义恩尼格玛机的初始设定，其包括种子seed，码盘位置code_site以及是否为经典模式classical |
-| database   | 数据库         |
-| collection | 数据表         |
-| path       | 下载的色图路径 |
-| APPKEY     | 腾讯ai的appkey |
-| APPID      | 腾讯ai的appid  |
-| username   | pixiv的用户名  |
-| password   | pixiv的密码    |
+### 程序函数说明
+| 函数         |    函数说明            |
+| ----------   | -------------- |
+| setting      | 定义初始设定，其包括种子seed，码盘位置code_site以及是否为经典模式classical |
+| setSite      | 设置转子位置，按转子左中右的顺序写入转子码盘左中右当前的值         |
+| getSite      | 返回当前的转子位置，顺序为转子0，1，2 左中右 |
+| isClassical  | 返回是否为经典模式，True表示经典模式 |
+| setSwap      | 设置交换的字母，其模拟的是恩尼格玛机的接线板 |
+| getSwap      | 以列表形式返回当前交换的字母  |
+| clearSwap    | 将所有已创建的字母交换值清空  |
+| setGroupSwap | setSwap的组函数版，可以一次性交换多组字母    |
+| deleteGroupSwap | 删除一组交换字母，一组内可以有多组不同的交换字母 |
+| run | 输入需要加密的文字，以及返回加密后的文字 |
+| getSeed | 返回当前的随机数种子 |
+| swap | 与setSwap函数功能相同，建议在交互模式下使用本函数，在其余模式下使用setSwap函数 |
+| site | 与setSite函数功能一样，建议在交互模式下使用本函数，在其余模式下使用setSite函数 |
+| help | 用于帮助使用者了解函数的使用方法 |
