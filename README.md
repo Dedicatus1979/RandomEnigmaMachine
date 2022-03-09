@@ -16,7 +16,7 @@ A simple pseudorandomness rotors Enigma machine with Python.    一个简易的�
 import enigma as enm          # 建议将此文件作为包导入。
 enm.setting(114514, False)    # setting中是用于设置主要信息的，114514设置的是种子，种子可以是任意非0的整数，False代表非经典模式。
 enm.setSite(1, 1, 4)          # 设置码盘位置，也可直接在setting中设置。
-text = r'''Hello world!!!'''  # 设置想要加密的内容，推荐在ascii模式下使用ascii内的字母，经典模式下同理，使用r与三引号是为了防止出现奇奇怪怪的问题
+text = r'''Hello world!!!'''  # 设置想要加密的内容，推荐在ascii模式下使用ascii内的字母，经典模式下同理，使用原始字符串是为了防止出现奇奇怪怪的问题
 cipher = enm.run(text)
 print(cipher)
 ```
