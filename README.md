@@ -65,7 +65,7 @@ FWZPU LFPAG!!!
 | clearSwap    | 将所有已创建的字母交换值清空  |
 | setGroupSwap | setSwap的组函数版，可以一次性交换多组字母    |
 | deleteGroupSwap | 删除一组交换字母，一组内可以有多组不同的交换字母 |
-| swap | 与setSwap函数功能相同，建议在交互模式下使用本函数，在其余模式下使用setSwap函数 |
-| site | 与setSite函数功能一样，建议在交互模式下使用本函数，在其余模式下使用setSite函数 |
+| swap | 与setSwap函数功能相同，建议仅在交互模式下使用本函数 |
+| site | 与setSite函数功能一样，建议仅在交互模式下使用本函数 |
 | run  | 输入需要加密的文字，以及返回加密后的文字 |
 | help | 用于帮助使用者了解函数的使用方法 |
