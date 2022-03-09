@@ -12,6 +12,8 @@ A simple random rotors Enigma machine with Python.
 
 在经典模式下，大小写不敏感且结果一律为大写字母。非经典模式下，为了防止空格间的混淆，" "(Space ASCII 32)将会被替换为"_"(Underline ASCII 95)。
 
+其中转子的实现原理可以看这里：(https://www.bilibili.com/read/cv14852910)
+
 ## 简易使用方法说明
 非交互模式：
 ```
