@@ -10,6 +10,12 @@ A simple pseudorandomness rotors Enigma machine with Python.    一个简易的�
 
 在经典模式下，大小写不敏感且结果一律为大写字母。非经典模式下，为了防止空格间的混淆，" "(Space ASCII 32)将会被替换为"_"(Underline ASCII 95)。
 
+## 简易使用方法说明
+非交互模式：
+···
+print("Hello world")
+···
+
 ### 程序函数说明
 | 函数         |    函数说明            |
 | ----------   | -------------- |
